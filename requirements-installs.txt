@@ -1,0 +1,11 @@
+python-dotenv
+sqlalchemy
+alembic
+fastapi
+psycopg2
+pydantic_settings
+uvicorn
+pytest
+requests
+boto3
+python-multipart
