@@ -33,7 +33,7 @@ def update_pdf(db: Session, id: int, pdf: schemas.PDFRequest):
 
 def delete_pdf (db: Session, id: int):
     db_pdf = db.query(models.PDF).filter(models.PDF.id == id).first()
-    print(db_pdf)
+    # print(db_pdf)
     if db_pdf is None:
         return None
     db.delete(db_pdf)

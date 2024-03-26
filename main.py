@@ -45,7 +45,7 @@ def get_settings():
 @app.get("/")
 def read_root(settings: config.Settings = Depends(get_settings)):
     # print the app_name configuration
-    print(settings.APP_NAME)
+    # print(settings.APP_NAME)
     return {"message": "Hello PDF World"}
 
 
